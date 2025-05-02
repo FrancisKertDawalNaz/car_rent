@@ -157,6 +157,14 @@ if (!isset($_SESSION['user_email'])) {
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookModal" data-car-name="Car Model 10">Book Now</button>
                     </div>
                 </div>
+                <div class="col-md-6 mb-3">
+                    <div class="car-box">
+                        <img src="static/car10.avif" alt="Car 10" class="img-fluid">
+                        <h5>Car Model 10</h5>
+                        <p>This car is great for eco-conscious drivers, offering an electric-powered engine and zero emissions.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookModal" data-car-name="Car Model 10">Book Now</button>
+                    </div>
+                </div>
             </div>
         </div>
 
