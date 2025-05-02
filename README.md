@@ -21,3 +21,6 @@ Backend: Node.js / PHP / Java (edit as needed)
 Database: MySQL / MongoDB
 
 Authentication: JWT / Session-based auth
+
+
+to create a simple web app and the title is car_rent to easy rent to all universe
