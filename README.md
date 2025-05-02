@@ -23,6 +23,21 @@ Database: MySQL / MongoDB
 Authentication: JWT / Session-based auth
 
 
-to create a simple web app and the title is car_rent to easy rent to all universe
+Features
+🧍 User Registration & Login
 
-test code
+🚘 Car Listings with Images and Descriptions
+
+📅 Car Booking and Scheduling System
+
+📊 Admin Dashboard for Fleet and User Management
+
+📦 Booking History & Status Tracking
+
+🔍 Car Search & Filter by Type, Price, or Availability
+
+🛡️ Secure Authentication and Authorization
+
+📱 Mobile-Responsive UI
+
+
