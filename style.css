@@ -1,0 +1,90 @@
+/* Body background and font style */
+body {
+    background-image: url(static/7506746.jpg); 
+    font-family: 'Arial', sans-serif; 
+    color: white; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+/* Centering the form */
+.container {
+    width: 100%;
+    max-width: 400px; 
+    padding: 30px;
+    background-color: #222; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+/* Form header */
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Input field styling */
+input.form-control {
+    border-radius: 5px; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #555; 
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #0062cc; 
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #004c99; 
+}
+
+/* Placeholder text color */
+input::placeholder {
+    color: #aaa;
+}
+
+/* Focus effect for inputs */
+input:focus {
+    outline: none;
+    border-color: #0062cc;
+    box-shadow: 0 0 5px rgba(0, 98, 204, 0.7);
+}
+
+.form-label {
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+/* Adjust the 'Already have an account?' link */
+.mt-3 p {
+    color: white;
+}
+
+.mt-3 a {
+    text-decoration: none;
+}
+
+.mt-3 a:hover {
+    text-decoration: underline;
+}
+

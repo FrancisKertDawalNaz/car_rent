@@ -1,0 +1,140 @@
+/* Basic styling for the sidebar */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0062cc;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.sidebar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/* Content area */
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+/* Minimalist search bar in the right corner */
+.search-bar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+}
+
+.search-bar input {
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the car boxes and button */
+/* Styling for the car boxes and button */
+.car-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensures equal height across all boxes */
+    box-sizing: border-box; /* Ensures padding and borders don't affect the box size */
+}
+
+.car-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.car-box h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.car-box p {
+    font-size: 14px;
+    color: #555;
+    flex-grow: 1;  /* Makes sure the text content takes up available space */
+}
+
+.car-box .btn {
+    align-self: center;  /* Centers the button horizontally within the box */
+    margin-top: 10px;
+}
+
+/* Ensure buttons are aligned consistently at the bottom */
+.car-box .btn {
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+/* Ensuring responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .col-md-2 {
+        max-width: 100%;
+    }
+}
+
+/* Dropdown Button Styling */
+.sidebar .dropdown-toggle {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid #444;
+    background-color: transparent;
+}
+
+/* Dropdown Menu */
+.sidebar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+/* Dropdown Items */
+.sidebar .dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hover Effect for Dropdown Items */
+.sidebar .dropdown-item:hover {
+    background-color: #575757;
+}
+
+/* Sidebar Icon Styling */
+.sidebar i {
+    margin-right: 10px;
+}
+
+/* Active Sidebar Link */
+.sidebar a.active {
+    background-color: #007bff;
+}
