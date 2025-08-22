@@ -1,43 +1,36 @@
-A simple and efficient Car Rental System that allows users to browse, rent, and manage vehicles with ease. This system is designed to streamline the car rental process for both customers and rental companies.
+🚗 Car Rental System
+
+A Car Rental Management System that allows users to browse available cars, book rentals, and manage reservations efficiently. Admins can manage cars, monitor bookings, and track customers. This project is designed for ease of use, scalability, and automation in managing rental services.
 
 📌 Features
-User registration and login system
+👤 User
 
-Browse available cars by category, price, or brand
+Browse available cars with details (model, price, availability).
 
-Rent and return vehicles with booking history
+Filter cars by category (SUV, sedan, luxury, etc.).
 
-Admin panel to manage cars, bookings, and users
+Book and manage reservations.
 
-Real-time availability tracking
+View rental history.
 
-Responsive UI for better user experience
+Secure authentication and profile management.
 
-🛠️ Technologies Used
-Frontend: HTML, CSS, JavaScript / React (edit based on your tech)
+🛠️ Admin
 
-Backend: Node.js / PHP / Java (edit as needed)
+Add, update, and remove cars.
 
-Database: MySQL / MongoDB
+Manage customer reservations.
 
-Authentication: JWT / Session-based auth
+Track payment history.
 
+Generate reports on rentals and revenue.
 
-Features
-🧍 User Registration & Login
+🏗️ Tech Stack
 
-🚘 Car Listings with Images and Descriptions
+Frontend: HTML, CSS, JavaScript (Bootstrap/Tailwind optional)
 
-📅 Car Booking and Scheduling System
+Backend: PHP / Laravel / Node.js / Django (depends on your setup)
 
-📊 Admin Dashboard for Fleet and User Management
+Database: MySQL / PostgreSQL
 
-📦 Booking History & Status Tracking
-
-🔍 Car Search & Filter by Type, Price, or Availability
-
-🛡️ Secure Authentication and Authorization
-
-📱 Mobile-Responsive UI
-
-
+Version Control: Git & GitHub
